@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Simion Alexandru">
+    <meta name="description" content="Site-ul web al blocului 64A">
+    <meta name="keywords" content="Bloc 64A, Sector 2, Bucuresti">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <main>
+            <article>
+                    <h2>Pentru orice alte sugestii sau reclamatii completati formularul de mai jos:</h2>
+                
+                <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Informatii personale</legend>
+                <p>
+                    <label for="lastName">Nume:</label> 
+                    <input type="text" name="lastName" id="lastName" placeholder="Popescu" required>
+                </p>
+                <label for="firstName">Prenume:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Cosmin" required>
+                <p>
+                    <label for="motiv">Motiv:</label>
+                    <input type="text" name="motiv" id="motiv" list="lsita-motive" required>
+                    <datalist id="lsita-motive">
+                        <option value="Parere">
+                        <option value="Nemultumire">
+                        <option value="Sugestie">
+                    </datalist>
+                </p>
+
+                
+                
+                <textarea name="message" id="message" cols="100" rows="10"></textarea>
+                
+                <br>
+                <button type="submit">Trimite</button>
+                <button type="reset">Sterge</button>
+            
+            </fieldset>
+            </form>
+            </article>
+       
+        </main>
+        <hr>
+    <footer>
+        <p>
+            Drepturi de Autor Simion Alexandru
+        </p>
+        <p>
+            <a href="pagina-principala.html">Spre pagina principala</a>
+        </p>
+
+    </footer>
+</body>
+</html>
