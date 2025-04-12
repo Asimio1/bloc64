@@ -1,5 +1,4 @@
-
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ro">
 
 <head>
@@ -19,19 +18,20 @@
             <article>
                     <h2>Pentru orice alte sugestii sau reclamatii completati formularul de mai jos:</h2>
                 
-                <form action="https://httpbin.org/get" method="get">
+                <form action="https://formsubmit.co/blocul64@yahoo.com" method="POST" >
+                    <input type="hidden" name="_next" value="https://blocul64.site/rasp.html">
             <fieldset>
                 <legend>Informatii personale</legend>
                 <p>
                     <label for="lastName">Nume:</label> 
-                    <input type="text" name="lastName" id="lastName" placeholder="Popescu" required>
+                    <input type="text" name="text" id="lastName" placeholder="Popescu" required>
                 </p>
                 <label for="firstName">Prenume:</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Cosmin" required>
+                <input type="text" name="text" id="firstName" placeholder="Cosmin" required>
                 <p>
                     <label for="motiv">Motiv:</label>
-                    <input type="text" name="motiv" id="motiv" list="lsita-motive" required>
-                    <datalist id="lsita-motive">
+                    <input type="text" name="text" id="motiv" list="lista-motive" required>
+                    <datalist id="lista-motive">
                         <option value="Parere">
                         <option value="Nemultumire">
                         <option value="Sugestie">
@@ -43,21 +43,27 @@
                 <textarea name="message" id="message" cols="100" rows="10"></textarea>
                 
                 <br>
-                <button type="submit">Trimite</button>
-                <button type="reset">Sterge</button>
+                
+                <button type="submit" class="button">Trimite</button>
+                <button type="reset" class="button">Sterge</button>
+                
             
             </fieldset>
             </form>
             </article>
        
+
+            <p>
+                <a href="index.html">
+                    <span class="home">Pagina principala 🏠</span>
+                </a>
+            </p>
+
         </main>
-        <hr>
-    <footer>
+        
+    <footer class="footrecl">
         <p>
-            Drepturi de Autor Simion Alexandru
-        </p>
-        <p>
-            <a href="index.html">Spre pagina principala</a>
+            &lt;&lt;&lt;Drepturi de autor Simion Alexandru &gt;&gt;&gt;
         </p>
 
     </footer>
