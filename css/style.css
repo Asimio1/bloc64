@@ -51,7 +51,7 @@ h1 {
 .button {
 background-color: black;
 font-size: 16px;
-border: 1px solid black;
+border: 1px solid white;
 display: inline-block;
 padding:5px 5px;
 color: white;
@@ -68,3 +68,19 @@ font-style: oblique;
 input {
     cursor: pointer; /* Changes the cursor to a hand when hovering over the input */
   } 
+
+
+
+
+  /* Style the custom label as a button */
+.buttonfile{
+    border:1px;
+    padding: 5px 5px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
