@@ -13,8 +13,10 @@
 <body>
     <header>
     <h1>Blocul 64A - Reclamatie proprietari</h1>
+    </header>
 
-    <form action="https://formsubmit.co/blocul64@yahoo.com" method="POST" ></form>
+
+    <form action="https://formsubmit.co/blocul64@yahoo.com" method="POST" enctype="multipart/form-data">
    
     <nav aria-label="primary-navigation">
         <ul>
@@ -42,7 +44,7 @@
         </ul>
     </nav>
 
-    </header>
+   
 
    
     <main>
@@ -57,21 +59,50 @@
             <legend></legend>
            
             <br>
+            <p>
             <textarea name="message" id="message"  cols="100" rows="10" placeholder="Text"></textarea>
+            <input type="hidden" name="_next" value="https://bloc64.site/rasp.html">
+            </p>
         </fieldset>
 
-        <br>
+        
     
         <button type="submit" class="button">Trimite</button>
+
         <button type="reset" class="button">Sterge</button>
-        <label for="media"></label>
-        <input class="button" type="file" id="media" name="media" accept="image/*,video/*,audio/*">
+
+        <label for="media" class="custom-file-upload">Alege fisier</label>
+
+        <input class="buttonfile" type="file" id="media" name="media" accept="image/*,video/*,audio/*">
+
+        <style>
+            /* Hide the default file input */
+
+            input[type ="file"] {
+              display: none;
+            }
+              /* Style the custom label as a button */
+  .custom-file-upload {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    
+  }
+
+  .custom-file-upload:hover {
+    background-color: black;
+  }
+</style>
 
       
 
 
-
-        </article>
+        </form>
+    </article>
     </main>
 
 <br>
@@ -79,7 +110,7 @@
 <hr>
     <footer class="footrecl">
     <p>
-        &lt;&lt;&lt; Drepturi de Autor Simion Alexandru &gt;&gt;&gt;
+        &lt;&lt;&lt; Drepturi de autor 2025 &copy;Simion Alexandru  &gt;&gt;&gt;
     </p>
     </footer>
 </body>
