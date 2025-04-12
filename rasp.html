@@ -1,30 +1,95 @@
 <!DOCTYPE html>
-<html lang= "ro">
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Simion Alexandru">
+        <meta name="description" content="Site-ul web al blocului 64A">
+        <meta name="keywords" content="Bloc 64A, Sector 2, Bucuresti">
+        <title>Reclamatii</title>
+        <link rel="stylesheet" href="css/style.css">
 
-<head>
-    <meta charset="UTF-8"> 
-    <title>Confirmare</title>
-    <link rel="icon" href="html5.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css" type="text/css">
-</head>
+
+    </head>
 <body>
-<header>
-    <p>
-        <h1>Succes</h1>
-    
-</header>
+    <header>
+    <h1>Blocul 64A - Reclamatie proprietari</h1>
+    </header>
 
-    <form action="rasp.html" method="POST">
+
+    <form action="https://formsubmit.co/blocul64@yahoo.com" method="POST" enctype="multipart/form-data">
+   
+    <nav aria-label="primary-navigation">
+        <ul>
+            <li>
+            <p>
+                <a href="index.html">
+                    <span class="link">Pagina principala 🏠</span>
+                </a>
+            </p>
+            </li>
+            <li>
+                <p>
+                    <a href="probleme-actuale.html">
+                        <span class="link">Vezi problemele blocului ❌</span>
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                     <a href="contact.html">
+                        <span class="link">Contact 💌</span>
+                     </a>
+                </p>
+            </li>
+        </ul>
+    </nav>
+
+
+
+   
+    <main>
+    
+        
+
+            <h2 class="h2recl">Reclamatie</h2>
+    </main>
+            
+
+        <fieldset>
+            <legend></legend>
+           
+            <br>
+            <p>
+            <textarea name="message" id="message"  cols="100" rows="10" placeholder="Text"></textarea>
+            <input type="hidden" name="_next" value="https://bloc64.site/rasp.html">
+            </p>
+        </fieldset>
+
+        
+    
+        <button type="submit" class="button">Trimite</button>
+
+        <button type="reset" class="button">Sterge</button>
+
+       
+
+        <input class="buttonfile" type="file" id="media" name="media" accept="image/*,video/*,audio/*">
+        <label for="media" class="custom-file-upload"></label>
+
+
+    
     </form>
+   
     
-    <p>Reclamatia ta a fost trimisa!</p>
-    <a href="index.html">Pagina principala 🏠</a>
 
+<br>
 
-<footer>
+<hr>
+    <footer class="footrecl">
     <p>
         &lt;&lt;&lt; Drepturi de autor 2025 &copy;Simion Alexandru  &gt;&gt;&gt;
     </p>
-</footer>
+    </footer>
 </body>
+
 </html>
